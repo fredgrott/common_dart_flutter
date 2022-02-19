@@ -1,0 +1,18 @@
+// Copyright 2022 Fredrick Allan Grott. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+void main() {
+  // DO-WHILE Loop
+  // WAP to find the even numbers between 1 to 10
+
+  int i = 1;
+
+  do {
+    if (i % 2 == 0) {
+      print(i);
+    }
+
+    i++;
+  } while (i <= 10);
+}
